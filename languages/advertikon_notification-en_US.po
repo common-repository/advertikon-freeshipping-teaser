@@ -1,0 +1,146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Free Shipping Teaser\n"
+"POT-Creation-Date: 2016-04-27 08:55+0300\n"
+"PO-Revision-Date: 2016-04-27 08:57+0300\n"
+"Last-Translator: \n"
+"Language-Team: Advertikon <translate@advertikon.com.ua>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: /var/www/html/wp/wp-content/plugins/"
+"adk_freeshipping_teaser/\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: adk_freeshipping_teaser.php:59
+#, php-format
+msgid "Plugin \"%s\" needs plugin \"WooCommerce\" to be installed"
+msgstr "Plugin \"%s\" needs plugin \"WooCommerce\" to be installed"
+
+#: adk_freeshipping_teaser.php:82 adk_freeshipping_teaser.php:84
+msgid "Allowed shipping classes"
+msgstr "Allowed shipping classes"
+
+#: adk_freeshipping_teaser.php:85
+msgid "Shipping class will inherit settings from it's parent."
+msgstr "Shipping class will inherit settings from it's parent."
+
+#: adk_freeshipping_teaser.php:85 adk_freeshipping_teaser.php:92
+msgid "Press Ctr to select several options."
+msgstr "Press Ctr to select several options."
+
+#: adk_freeshipping_teaser.php:85 adk_freeshipping_teaser.php:92
+msgid "Leave blank to disable this option"
+msgstr "Leave blank to disable this option"
+
+#: adk_freeshipping_teaser.php:89 adk_freeshipping_teaser.php:91
+msgid "Allowed categories"
+msgstr "Allowed categories"
+
+#: adk_freeshipping_teaser.php:92
+msgid "Subcategory will inherit settings from it's parent."
+msgstr "Subcategory will inherit settings from it's parent."
+
+#: adk_freeshipping_teaser.php:96 adk_freeshipping_teaser.php:98
+msgid "Teaser preview"
+msgstr "Teaser preview"
+
+#: adk_freeshipping_teaser.php:99
+msgid ""
+"Teaser's real width will depend on a page width where it's embedded. Real "
+"amount will be calculated as difference between minimum order amount and "
+"cart subtotal"
+msgstr ""
+"Teaser's real width will depend on a page width where it's embedded. Real "
+"amount will be calculated as difference between minimum order amount and "
+"cart subtotal"
+
+#: adk_freeshipping_teaser.php:104 adk_freeshipping_teaser.php:106
+msgid "Teaser text"
+msgstr "Teaser text"
+
+#: adk_freeshipping_teaser.php:107
+msgid ""
+"In order to get free shipping you need to buy more products in the {total}"
+msgstr ""
+"In order to get free shipping you need to buy more products in the {total}"
+
+#: adk_freeshipping_teaser.php:108
+msgid ""
+"Text {total} will be replaced with real amount, which needed, to enable free "
+"shipping"
+msgstr ""
+"Text {total} will be replaced with real amount, which needed, to enable free "
+"shipping"
+
+#: adk_freeshipping_teaser.php:112 adk_freeshipping_teaser.php:114
+msgid "Teaser text color"
+msgstr "Teaser text color"
+
+#: adk_freeshipping_teaser.php:117 adk_freeshipping_teaser.php:119
+msgid "Teaser background color"
+msgstr "Teaser background color"
+
+#: adk_freeshipping_teaser.php:122 adk_freeshipping_teaser.php:124
+msgid "Teaser position"
+msgstr "Teaser position"
+
+#: adk_freeshipping_teaser.php:126
+msgid "Before cart"
+msgstr "Before cart"
+
+#: adk_freeshipping_teaser.php:127
+msgid "Before cart table"
+msgstr "Before cart table"
+
+#: adk_freeshipping_teaser.php:128
+msgid "Before cart contents"
+msgstr "Before cart contents"
+
+#: adk_freeshipping_teaser.php:129
+msgid "After cart contents"
+msgstr "After cart contents"
+
+#: adk_freeshipping_teaser.php:130
+msgid "After cart table"
+msgstr "After cart table"
+
+#: adk_freeshipping_teaser.php:131
+msgid "Cart bottom"
+msgstr "Cart bottom"
+
+#: adk_freeshipping_teaser.php:132
+msgid "After cart"
+msgstr "After cart"
+
+#: adk_freeshipping_teaser.php:133
+msgid "Before checkout form"
+msgstr "Before checkout form"
+
+#: adk_freeshipping_teaser.php:134
+msgid "Checkout. Before customer's details"
+msgstr "Checkout. Before customer's details"
+
+#: adk_freeshipping_teaser.php:135
+msgid "Checkout. After customer's details"
+msgstr "Checkout. After customer's details"
+
+#: adk_freeshipping_teaser.php:136
+msgid "Checkout. Before order review"
+msgstr "Checkout. Before order review"
+
+#: adk_freeshipping_teaser.php:137
+msgid "Checkout. Order review section"
+msgstr "Checkout. Order review section"
+
+#: adk_freeshipping_teaser.php:138
+msgid "Checkout. After order review"
+msgstr "Checkout. After order review"
+
+#: adk_freeshipping_teaser.php:139
+msgid "After checkout form"
+msgstr "After checkout form"

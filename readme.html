@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Plugin description</title>
+	<style type="text/css" media="screen">
+		p, table, hr, .box {
+			margin-bottom:25px;
+		}
+		.box p {
+			margin-bottom:10px;
+		}
+		.container {
+			width: 80%;
+			min-width: 300px;
+			margin: 0 auto;
+		}
+		.center {
+			text-align: center;
+		}
+		.advertikon {
+			font-weight: bolder;
+			color: blue;
+		}
+		.sidenote {
+			font-size: 0.9em;
+			font-style: italic;
+			padding: 5px;
+		}
+		.figure {
+			width: 100%;
+		}
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Samart Notifications&rdquo; by Adverti<span class="advertikon">k</span>on</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Smart Notifications&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 11/19/2018<br>
+					By: Advertikon<br>
+					Email: <a href="mailto:support@advertikon.com.ua">support@advertikon.com.ua</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for downloading my WooCommerce plugin. If you have any questions that are beyond the scope of this help file, please feel free to email me at <a href="mailto:support@advertikon.com.ua">support@advertikon.com.ua</a></p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#description">Description</a></li>
+			<li><a href="#features">Features</a></li>
+			<li><a href="#view-cus">View customization options</a></li>
+			<li><a href="#func-vars">Shortocdes</a></li>
+			<li><a href="#events">Events (conditions) to show/hide notification</a></li>
+			<li><a href="#installation">Installation</a></li>
+			<li><a href="#configuration">Configuration</a></li>
+			<li><a href="#remove">Removing plugin</a></li>
+		</ol>
+
+		<hr>
+		<h3 id="description"><strong>1. Description</strong> - <a href="#toc">top</a></h3>
+		<p>
+			Woocommerce plugin to show customizable popup notification for customers
+		</p>
+
+		<hr>
+		<h3 id="features"><strong>2. Features</strong> - <a href="#toc">top</a></h3>
+		<ul>
+			<li>Extremely customizable appearance.
+			<li>Customizable notification text.
+			<li>Adding variables into text (such as customer's name, email and the like) by means of shortcodes.
+			<li>Customizable Call To Action buttons.
+			<li>Feature to set conditions to show the notification (eg customer is logged in, some amount needs to be added to cart total in order to get free shipping etc).
+		</ul>
+
+		<hr>
+		<h3 id="view-cus"><strong>3. View customization options</strong> - <a href="#toc">top</a></h3>
+		<ul>
+			<li>Text color
+			<li>Background color.
+			<li>Width.
+			<li>Font height.
+			<li>Border radius.
+			<li>Box shadow.
+			<li>Box shadow color.
+			<li>Border width.
+			<li>Border color.
+			<li>Text position
+		</ul>
+
+		<hr>
+		<h3 id="func-vars"><strong>4. Shortcodes</strong> - <a href="#toc">top</a></h3>
+		<ul>
+			<li>Customer's name
+			<li>Customer's email
+			<li>Free shipping min amount
+			<li>The difference between free shipping min amount and cart total
+			<li>Call To Action button
+		</ul>
+
+		<hr>
+		<h3 id="events"><strong>5. Conditions (filters) to show notification</strong> - <a href="#toc">top</a></h3>
+		<ul>
+			<li>Page name
+			<li>Customer's status
+			<li>Insufficient cart total to enable free shipping
+		</ul>
+		
+		<hr>
+		
+		<h3 id="installation"><strong>6. Installation</strong> - <a href="#toc">top</a></h3>
+		<p>
+			In order to install the plugin unzip package file and upload its contents to <b>yourServerRootFolder/WordPressFolder/wp-content/plugins/</b> folder.
+		</p>
+
+		<p>
+			<span class="sidenote">Such folder structure will be in that case, when WordPress blog is installed in subfolder. In most cases <b>YourStoreRootFolder</b> will be the same as <b>WordPressFolder</b>.</span>
+		</p>
+
+		<p>
+			Then go to <b>WordPress Dashboard > Plugins</b> and click plugin's <b>Activate</b> link  to activate it.
+		</p>
+		<img class="figure" src="assets/img/smart_notifications_activate.png">
+
+		<hr>
+
+		<h3 id="configuration"><strong>7. Configuration</strong> - <a href="#toc">top</a></h3>
+		<p>
+			To configure the plugin go to <b>Dashboard > WooCommerce > Settings > Notifications tab.</b> There are several blocks which groups widget controls (you need to expand block by clicking on its header to get access to controls)
+		</p>
+		<img class="figure" src="assets/img/admin_blocks.png">
+		<p>Block <b>Common appearance</b> contains controls to customize appearance of the widget in the whole: width, border color, shadow etc</p>
+		<p>Block <b>Section</b> contains controls to customize specific section: background color, text position, font size etc. "Text" input field of this block can evaluate shortcoes (it replaces [customer_name] with John Smith, for example)</p>
+		<p>At block <b>Filters</b> you can configure conditions to show the widget</p>
+		<p>Block <b>Call to action button</b> contains controls to create or modify existing (you need to load existing button) button. After button is created you can insert it as a shortcode into "Text" field (Block "Section") in a form [adk_button]button name[/adk_button], where "button name" is the name you set for this button. <b>Don't forget to save changes after button modification</b></p>
+		<p>In order to save/modify widget you need to click "Save Widget" button</p>
+
+		<hr>
+		<h3 id="remove"><strong>8. Removing plugin</strong> - <a href="#toc">top</a></h3>
+		<p>
+			To deactivate plugin go to <b>WordPress Dashboard > Plugins</b> and click plugin's <b>Deactivate</b> link  to deactivate it. If you want totally remove plugin - click <b>Delete</b> link. In this case all plugin's data will be removed as well.
+		</p>
+		<img class="figure" src="assets/img/smart_notifications_deactivate.png">
+		
+		<hr class="space">
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+	</div><!-- end div .container -->
+</body>
+</html>
